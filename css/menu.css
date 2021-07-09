@@ -1,0 +1,197 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container-fluid{
+    max-width: 1366px;
+}
+a{
+    text-decoration: none;
+}
+p, h1, h2, h3, h4, h5, h6{
+    margin-bottom: 0px;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.margin-l35{
+    margin-left: 35px;
+}
+
+/* Header */
+.header{
+    box-shadow: 0px 3px 6px #00000026;
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    z-index: 3;
+}
+.header .container-fluid{
+    padding-left: 118px;
+    padding-right: 120px;
+}
+.bg-light{
+    background: #fff !important;
+}
+.customer-support p{
+    color: #FFAA00;
+    padding-right: 34px;
+}
+.header .form-select{
+    border-color: #DFDFDF;
+    border-radius: 5px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #999999;
+    padding: 7px 83px 7px 23px;
+    cursor: pointer;
+}
+.header .form-select:focus{
+    box-shadow: none;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #646464;
+    padding: 20px 40px;
+}
+.header .login{
+    color: #646464;
+}
+
+
+/* Menu */
+.menu{
+    margin-bottom: 98px;
+}
+.menu .container-fluid{
+    padding-left: 138px;
+    padding-right: 143px;
+}
+.breadcrumb{
+    padding-top: 170px;
+    margin-bottom: 41px;
+}
+.breadcrumb-item{
+    font-size: 20px;
+    font-weight: 300;
+}
+.breadcrumb .active{
+    color: #FFAA00;
+}
+.breadcrumb-item a{
+    color: #6A6A6A;
+}
+
+.menu h2{
+    font-weight: 600;
+    font-size: 30px;
+    color: #1C1C1C;
+    margin-left: 1px;
+    margin-bottom: 40px;
+}
+
+.breakfast,
+.lunch,
+.dinner,
+.snacks,
+.drinks,
+.desserts,
+.salad,
+.bread{
+    max-width: 338px;
+    height: 173px; 
+}
+.breakfast{
+    background: url(../img/common\ food\ images/breakfast.png) no-repeat left top;
+}
+.lunch{
+    background: url(../img/common\ food\ images/lunch.png) no-repeat left top;
+}
+.dinner{
+    background: url(../img/common\ food\ images/dinner.png) no-repeat left top;
+}
+.snacks{
+    background: url(../img/common\ food\ images/snacks.png) no-repeat left top;
+}
+.drinks{
+    background: url(../img/common\ food\ images/drinks.png) no-repeat left top;
+}
+.desserts{
+    background: url(../img/common\ food\ images/desserts.png) no-repeat left top;
+}
+.salad{
+    background: url(../img/common\ food\ images/salad.png) no-repeat left top;
+}
+.bread{
+    background: url(../img/common\ food\ images/bread.png) no-repeat left top;
+}
+.breakfast:hover,
+.lunch:hover,
+.dinner:hover,
+.snacks:hover,
+.drinks:hover,
+.desserts:hover,
+.salad:hover,
+.bread:hover{
+    background: #FFAA00;
+    transition: all 0.3s ease-in-out;
+}
+.menu-types{
+    background: url(../img/common\ food\ images/menu-bg.svg);
+    width: 160px;
+    height: 89px;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-top: 21px;
+    color: #FFFFFF;
+}
+
+/* Footer */
+.footer{
+    background-color: #1C1C1C;
+    color: #FFFFFF;
+    padding-top: 65px;
+    overflow: hidden;
+}
+.footer .container-fluid{
+    padding-left: 142px;
+}
+.footer-content{
+    display: grid;
+    grid-template-columns: 245px 190px 410px 280px;
+}
+.footer h5{
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.footer-start p{
+    font-weight: 300;
+    margin-top: 1rem;
+}
+.quick-links ul li,
+.recipes-menu ul li{
+    font-weight: 300;   
+    margin-bottom: 24px;
+}
+.quick-links ul li a,
+.recipes-menu ul li a{
+    color: #fff;
+}
+.privacy-policy{
+    font-size: 14px;
+    margin-bottom: 8px;
+    margin-top: 76px;
+}
+.copyright{
+    font-size: 14px;
+    color: #B1B1B1;
+    margin-bottom: 41px;
+}
+.social-icons{
+    background: url(../img/footer/footer_img.png) no-repeat left top;
+    height: 100%;
+}
+.social-icons img{
+    margin-right: 20px;
+}

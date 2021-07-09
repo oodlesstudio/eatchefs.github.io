@@ -1,0 +1,570 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>Eatchefs</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <section class="header">
+            <div class="container-fluid">
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <div class="container">
+                            <a class="navbar-brand" href="index.html" title="Eatchefs"><img
+                                    src="img/header/header_logo.png" alt="Eatchefs Logo"></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <div class="d-flex flex-column w-100 padding-b13">
+                                    <div class="d-flex justify-content-end align-items-center">
+                                        <div class="customer-support">
+                                            <p>Customer support: 1800 234 356 79</p>
+                                        </div>
+                                        <div>
+                                            <select id="inputLocation" class="form-select">
+                                                <option selected>Location</option>
+                                                <option>...</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center w-100">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="recipes.html">Recipes</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="videos.html">Videos</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="menu.html">Menu</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Chef's Pencil</a>
+                                            </li>
+                                        </ul>
+                                        <a href="#" class="d-flex login">
+                                            <img src="img/icons/login-icon.png" class="me-2">
+                                            Login
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!-- Dish Name -->
+    <section class="dish-name">
+        <div class="container-fluid">
+            <div class="row position-relative">
+                <div class="col-md-12">
+                    <div class="form-group has-search">
+                        <span class="fa fa-search form-control-feedback"></span>
+                        <input type="text" class="form-control" placeholder="Search for dish name">
+                    </div>
+                </div>
+
+                <div class="col-md-6 dish-name-left">
+                    <div class="hungry">
+                        <div class="vl"></div>
+                        <h3>Hungry?</h3>
+                        <h2><span>Homemade food</span> delivered doorstep</h2>
+                    </div>
+                    <a href="#" class="food-chef">Become a home chef</a>
+                </div>
+                
+                <div class="col-md-6 dish-name-right">
+                    <img src="img/home/banner pic.png" alt="Banner">
+                </div>
+                <div class="hungry-bottom">
+                    <div class="d-flex hungry-bottom-inner">
+                        <div>
+                            <img src="img/home/3-1.png">
+                        </div>
+                        <div>
+                            <h6 class="hungry-item">Chicken Makhani <br>(Roasted in nuts)</h6>
+                            <span class="hungry-rating"><i class="fas fa-star"></i>4.8</span>
+                            <h6 class="watch-video">Watch Live video</h6>
+                        </div>
+                    </div>
+                    <div class="d-flex hungry-bottom-inner">
+                        <div>
+                            <img src="img/home/3-1.png">
+                        </div>
+                        <div>
+                            <h6 class="hungry-item">Rogan Josh <br>(Curried Meat)</h6>
+                            <span class="hungry-rating"><i class="fas fa-star"></i>4.8</span>
+                            <h6 class="watch-video">Watch Live video</h6>
+                        </div>
+                    </div>
+                    <div class="d-flex hungry-bottom-inner">
+                        <div>
+                            <img src="img/home/3-1.png">
+                        </div>
+                        <div>
+                            <h6 class="hungry-item">Rogan Josh <br>(Curried Meat)</h6>
+                            <span class="hungry-rating"><i class="fas fa-star"></i>4.8</span>
+                            <h6 class="watch-video">Watch Live video</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Highest Rated Meals -->
+    <section class="highest-rated-meals">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="eatchefs-headings">Our top highest rated meals</h2>
+                    <div class="d-flex justify-content-center eatchefs-border">
+                        <div class="headings-border"></div>
+                        <div class="dotted-border"></div>
+                    </div>
+                </div>
+
+                <div class="our-meals">
+                    <div class="top-meals">
+                        <img src="img/common food images/Image 14.png">
+                        <div class="top-meals-inner">
+                            <div class="d-flex justify-content-between dish-title">
+                                <h6>Mom's Greek Lemon <br>Rice</h6>
+                                <span class="rating"><i class="fas fa-star"></i>4.8</span>
+                            </div>
+                            <h6>by Chef Mohini Rana,</h6>
+                            <p>Mukherjee Nagar, Delhi</p>
+                            <a href="#" class="view-recipe">View recipe</a>
+                            <span class="vote"><i class="fas fa-heart"></i>5,00 votes</span>
+                        </div>
+                    </div>
+
+                    <div class="top-meals">
+                        <img src="img/home/tandori-chicken.png">
+                        <div class="top-meals-inner">
+                            <div class="d-flex justify-content-between dish-title">
+                                <h6>Tandoori Chicken</h6>
+                                <span class="rating"><i class="fas fa-star"></i>4.8</span>
+                            </div>
+                            <h6>by Chef Mohini Rana,</h6>
+                            <p>Mukherjee Nagar, Delhi</p>
+                            <a href="#" class="view-recipe">View recipe</a>
+                            <span class="vote"><i class="fas fa-heart"></i>1,000 votes</span>
+                        </div>
+                    </div>
+
+                    <div class="top-meals">
+                        <img src="img/home/chicken-masala.png">
+                        <div class="top-meals-inner">
+                            <div class="d-flex justify-content-between dish-title">
+                                <h6>Chicken Butter Masala</h6>
+                                <span class="rating"><i class="fas fa-star"></i>4.8</span>
+                            </div>
+                            <h6>by Chef Mohini Rana,</h6>
+                            <p>Mukherjee Nagar, Delhi</p>
+                            <a href="#" class="view-recipe">View recipe</a>
+                            <span class="vote"><i class="fas fa-heart"></i>5,00 votes</span>
+                        </div>
+                    </div>
+
+                    <div class="top-meals">
+                        <img src="img/home/fried-noodles.png">
+                        <div class="top-meals-inner">
+                            <div class="d-flex justify-content-between dish-title">
+                                <h6>Fried noodles</h6>
+                                <span class="rating"><i class="fas fa-star"></i>4.8</span>
+                            </div>
+                            <h6>by Chef Mohini Rana,</h6>
+                            <p>Mukherjee Nagar, Delhi</p>
+                            <a href="#" class="view-recipe">View recipe</a>
+                            <span class="vote"><i class="fas fa-heart"></i>2,000 votes</span>
+                        </div>
+                    </div>
+
+                    <div class="top-meals">
+                        <img src="img/common food images/poached-egg.png">
+                        <div class="top-meals-inner">
+                            <div class="d-flex justify-content-between dish-title">
+                                <h6>Poached egg</h6>
+                                <span class="rating"><i class="fas fa-star"></i>4.8</span>
+                            </div>
+                            <h6>by Chef Mohini Rana,</h6>
+                            <p>Mukherjee Nagar, Delhi</p>
+                            <a href="#" class="view-recipe">View recipe</a>
+                            <span class="vote"><i class="fas fa-heart"></i>1,000 votes</span>
+                        </div>
+                    </div>
+
+                    <div class="top-meals">
+                        <img src="img/home/chicken-masala.png">
+                        <div class="top-meals-inner">
+                            <div class="d-flex justify-content-between dish-title">
+                                <h6>Chicken Butter Masala</h6>
+                                <span class="rating"><i class="fas fa-star"></i>4.8</span>
+                            </div>
+                            <h6>by Chef Mohini Rana,</h6>
+                            <p>Mukherjee Nagar, Delhi</p>
+                            <a href="#" class="view-recipe">View recipe</a>
+                            <span class="vote"><i class="fas fa-heart"></i>5,00 votes</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-center cuisine-border">
+                    <div class="cuisine-border-bottom"></div>
+                    <div class="dotted-circle-border"></div>
+                    <div class="dotted-circle-border"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Meal -->
+    <section class="special-meal">
+        <div class="col-12">
+            <h2 class="eatchefs-headings">Meal of the week</h2>
+            <div class="d-flex justify-content-center eatchefs-border">
+                <div class="headings-border"></div>
+                <div class="dotted-border"></div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-7 special-meal-left">
+                </div>
+                <div class="col-md-5 special-meal-right ps-5">
+                    <div class="chicken-corner">
+                        <h3>Chicken Griller</h3>
+                        <p>These popular bacon-wrapped chicken entrees are fantastic on grill, but they can also be
+                            baked on the griller. look for them in the meat section.</p>
+                    </div>
+                    <div class="d-flex justify-content-between ingredients-list">
+                        <h6>Ingredients</h6>
+                        <h6 class="view-all-ingredients">View all</h6>
+                    </div>
+                    <div class="d-flex">
+                        <div class="ingredients margin-r150">
+                            <h6>Chicken</h6>
+                            <p>4 chicken breast</p>
+                        </div>
+                        <div class="ingredients">
+                            <h6>Bacan</h6>
+                            <p>16 slice</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="ingredients margin-r150">
+                            <h6>Maple Syrup</h6>
+                            <p>1 teaspoon</p>
+                        </div>
+                        <div class="ingredients">
+                            <h6>Sauces</h6>
+                            <p>1 teaspoon</p>
+                        </div>
+                    </div>
+                    <div class="nutrition-value">
+                        <h6>Nutrition value</h6>
+                        <div class="d-flex justify-content-between">
+                            <p>20 <span>Calories</span></p>
+                            <p>16% <span>Protein</span></p>
+                            <p>25% <br>Fat</p>
+                            <p>10 <br>Carbs</p>
+                        </div>
+                    </div>
+                    <div class="vote-recipe d-flex align-items-center">
+                        <div class="vote-recipe-left d-flex align-items-center">
+                            <i class="fas fa-heart"></i> Vote this recipe
+                        </div>
+                        <div class="vote-recipe-right">
+                            <i class="fas fa-heart"></i> 701 Votes
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Favorite Cuisines -->
+    <section class="favorite-cuisines">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="eatchefs-headings">Your favorite cuisines</h2>
+                    <div class="d-flex justify-content-center eatchefs-border">
+                        <div class="headings-border"></div>
+                        <div class="dotted-border"></div>
+                    </div>
+                </div>
+
+                <div class="d-flex ps-0">
+                    <nav class="nav">
+                        <a class="nav-link active" aria-current="page" href="#">Indian</a>
+                        <a class="nav-link" href="#">Indonesian</a>
+                        <a class="nav-link" href="#">Turkish</a>
+                        <a class="nav-link" href="#">Thai</a>
+                        <a class="nav-link" href="#">Spanish</a>
+                        <a class="nav-link" href="#">Moroccan</a>
+                        <a class="nav-link" href="#">Japanese</a>
+                    </nav>
+                    <div class="arrow-left">
+                        <i class="fas fa-chevron-left"></i>
+                    </div>
+                    <div class="arrow-right">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+
+                <div class="cuisines-inner d-flex justify-content-center">
+                    <div class="cuisine-one">
+                        <img src="img/home/stroganoff.png" alt="Beef Stroganoff">
+                        <div class="cuisine-content">
+                            <p>Beef Stroganoff</p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="cuisine-two">
+                        <img src="img/common food images/tandoori-chicken.png" alt="Tandoori Chicken">
+                        <div class="cuisine-content">
+                            <p>Tandoori Chicken</p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="cuisine-three">
+                        <img src="img/common food images/chicken masala.png" alt="Chicken Butter Masala">
+                        <div class="cuisine-content">
+                            <p>Chicken Butter Masala</p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diet Chef -->
+    <section class="diet-chef">
+        <div class="container-fluid">
+            <div class="d-flex justify-content-center cuisine-border">
+                <div class="cuisine-border-bottom"></div>
+                <div class="dotted-circle-border"></div>
+                <div class="dotted-circle-border"></div>
+            </div>
+
+            <!-- Diet Plans -->
+            <div class="row diet-plans">
+                <div class="col-12">
+                    <h2 class="eatchefs-headings">Diet Plans</h2>
+                    <div class="d-flex justify-content-center eatchefs-border">
+                        <div class="headings-border"></div>
+                        <div class="dotted-border"></div>
+                    </div>
+                </div>
+
+                <nav class="nav justify-content-center">
+                    <a class="nav-link active" aria-current="page" href="#">Detox Plan</a>
+                    <a class="nav-link" href="#">Weight loss Plan</a>
+                    <a class="nav-link" href="#">After sleeves Plan</a>
+                </nav>
+
+                <div class="detox-plan">
+                    <div class="detox-one">
+                        <img src="img/home/lentil-veg.png" alt="Lentil and Vegetable Stew">
+                        <div class="diet-contents">
+                            <h5>Lentil and Vegetable Stew</h5>
+                            <p>Breakfast <span>|</span> 900kcal</p>
+                            <h6><a href="#">View full recipe</a></h6>
+                        </div>
+                    </div>
+                    <div class="detox-two">
+                        <img src="img/home/salad.png" alt="Salad of fresh rocket leaves">
+                        <div class="diet-contents">
+                            <h5>Salad of fresh rocket leaves</h5>
+                            <p>Dinner <span>|</span> 250kcal</p>
+                            <h6><a href="#">View full recipe</a></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chefs Pencil -->
+            <div class="chefs-pencil">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="eatchefs-headings">Chef's Pencil</h2>
+                        <div class="d-flex justify-content-center eatchefs-border">
+                            <div class="headings-border"></div>
+                            <div class="dotted-border"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row pencil-one">
+                    <div class="col-md-4">
+                        <img src="img/common food images/cooking-gene.png" alt="An Appreciation">
+                    </div>
+                    <div class="col-md-8">
+                        <h5 class="pencil-heading">The Cooking Gene: An Appreciation</h5>
+                        <span class="pencil-link"><a href="#">http://www.seriouseats.com/</a></span>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                            has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                            took a
+                            galley of type and scrambled it to make a type specimen book.... <a href="#">Read
+                                More</a>
+                        </p>
+                        <div class="d-flex">
+                            <div>
+                                <img src="img/home/ellipse.png" alt="Madhu Das" class="ellpise-img">
+                            </div>
+                            <div class="pencil-name">
+                                <h5>by Madhu das</h5>
+                                <h6>2 RANK <span>178 MENTIONS</span></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row pencil-two">
+                    <div class="col-md-4">
+                        <img src="img/common food images/cold-brewkit.png" alt="Grady’s Cold Brew Kit">
+                    </div>
+                    <div class="col-md-8">
+                        <h5 class="pencil-heading">This Summer, I’m Packing My Suitcase With a Grady’s Cold Brew Kit
+                        </h5>
+                        <span class="pencil-link"><a href="#">http://www.seriouseats.com/</a></span>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                            has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                            took a
+                            galley of type and scrambled it to make a type specimen book.... <a href="#">Read
+                                More</a>
+                        </p>
+                        <div class="d-flex">
+                            <div>
+                                <img src="img/home/ellipse.png" alt="Madhu Das" class="ellpise-img">
+                            </div>
+                            <div class="pencil-name">
+                                <h5>by Madhu das</h5>
+                                <h6>2 RANK <span>178 MENTIONS</span></h6>
+                                <a href="#" class="see-all">See all</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <Footer>
+        <section class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="footer-content">
+                        <div class="footer-start">
+                            <img src="img/footer/footer_logo.png" alt="Eatchefs Logo">
+                            <p>Make people Happy with HOME COOKED FOOD. Eatchefs helps home chefs to produce, distribute
+                                and
+                                promote their delicious meals</p>
+                        </div>
+
+                        <div class="quick-links margin-l35">
+                            <ul>
+                                <h5>Quick Links</h5>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Recipes</a></li>
+                                <li><a href="#">Videos</a></li>
+                                <li><a href="#">Chef's Pencil</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="recipes-menu">
+                            <h5 class="margin-l35">Recipes & Menu</h5>
+                            <div class="d-flex">
+                                <div class="margin-l35">
+                                    <ul>
+                                        <li><a href="#">Breakfast</a></li>
+                                        <li><a href="#">Lunch</a></li>
+                                        <li><a href="#">Dinner</a></li>
+                                        <li><a href="#">Appetizer & Snacks</a></li>
+                                    </ul>
+                                </div>
+                                <div class="margin-l35">
+                                    <ul>
+                                        <li><a href="#">Drinks</a></li>
+                                        <li><a href="#">Desserts</a></li>
+                                        <li><a href="#">Salad</a></li>
+                                        <li><a href="#">Bread</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="text-center float-start">
+                                <p class="privacy-policy">Terms of use | Privacy policy</p>
+                                <p class="copyright">&copy; Copyright 2021. All right reserved</p>
+                            </div>
+                        </div>
+
+                        <div class="footer-end">
+                            <h5>Get Social With Us</h5>
+                            <div class="social-icons">
+                                <a href="#"><img src="img/icons/icon_facebook.svg" alt="Facebook"></a>
+                                <a href="#"><img src="img/icons/icon_pinterest.svg" alt="Pintrest"></a>
+                                <a href="#"><img src="img/icons/icon_twiter.svg" alt="Twitter"></a>
+                                <a href="#"><img src="img/icons/icon_instagram.svg" alt="Instagram"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </Footer>
+
+    <!-- Required JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+        integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
