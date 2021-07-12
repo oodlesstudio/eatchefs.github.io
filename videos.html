@@ -91,7 +91,7 @@
                         </ol>
                     </nav>
                     <div>
-                        <i class="fas fa-search"></i>
+                        <a href="#"><i class="fas fa-search"></i></a>
                     </div>
                 </div>
 
@@ -223,10 +223,10 @@
         </div>
     </section>
 
-    <!-- Modal -->
-    <!-- <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+    <!-- Drop Files -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
         aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body text-center">
                     <div class="drag-drop">
@@ -238,19 +238,40 @@
                         <p class="or">or</p>
                         <a href="#" class="browse-files">Browse files</a>
                     </div>
-                    <div>
-                        <div class="progress d-flex flex-column">
-                            <div class="d-flex justify-content-between w-100">
-                                <div>
-                                    <h6>Uploading..</h6>
-                                </div>
-                                <div>
-                                    <img src="img/common food images/play.png" class="margin-r14">
-                                    <img src="img/common food images/stop.png">
-                                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Uploading -->
+    <!-- <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <div class="drag-drop">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <img src="img/common food images/cross.png">
+                        </button>
+                        <img src="img/common food images/cloud.png">
+                        <h5 class="drop-files-here">Drag and drop files here</h5>
+                        <p class="or">or</p>
+                        <a href="#" class="browse-files">Browse files</a>
+                    </div>
+                    <div class="progress-section">
+                        <div class="d-flex justify-content-between align-items-end w-100">
+                            <div>
+                                <h6>Uploading..</h6>
+                                <span class="float-start mb-1">10%</span>
                             </div>
-                            <div class="progress-bar" role="progressbar" style="width: 10%;" aria-valuenow="10"
-                                aria-valuemin="0" aria-valuemax="100">10%</div>
+                            <div class="mb-3">
+                                <a href="#"><img src="img/common food images/play.png" class="margin-r14"></a>
+                                <a href="#"><img src="img/common food images/stop.png"></a>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="10"
+                                aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                 </div>
@@ -259,7 +280,7 @@
     </div> -->
 
     <!-- Details -->
-    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+    <!-- <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
         aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable" role="document">
             <div class="modal-content">
@@ -290,7 +311,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body pink-modal-bg">
                     <div class="row details-content">
                         <div class="col-md-6">
                             <form class="row">
@@ -336,7 +357,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Video Elements -->
     <!-- <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
@@ -370,7 +391,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body pink-modal-bg">
                     <div class="video-elements">
                         <form class="row">
                             <div class="col-md-12 margin-b30">
@@ -458,7 +479,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body pink-modal-bg">
                     <div class="row visibility">
                         <div class="col-md-8">
                             <div class="visibility-top">
@@ -526,6 +547,25 @@
                         <div class="next-button">
                             <a href="#">Save</a>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Uploaded -->
+    <!-- <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <div class="uploaded">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <img src="img/common food images/cross.png">
+                        </button>
+                        <img src="img/common food images/uploaded.png">
+                        <h5 class="drop-files-here">Video Upload Successful</h5>
+                        <a href="#" class="browse-files">See all videos</a>
                     </div>
                 </div>
             </div>

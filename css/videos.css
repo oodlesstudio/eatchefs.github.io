@@ -256,10 +256,15 @@ ul{
 .modal-body{
     padding: 0;
 }
+.modal-sm{
+    max-width: 461px;
+}
 .drag-drop{
     border: 2px dashed #C2CDDA;
+    border-radius: 10px;
     position: relative;
     padding-top: 33px;
+    margin: 15px;
 }
 .modal-body .close{
     position: absolute;
@@ -293,18 +298,48 @@ ul{
     display: inline-block;
 }
 
-.progress{
+.progress-section{
     border: 1px solid #C2CDDA;
+    border-radius: 10px;
     padding: 18px 20px 13px;
     background: #fff;
-    margin-top: 10px;
     height: auto;
+    margin: 15px;
+    margin-top: -5px;
 }
-.progress .h6{
+.progress-section .h6{
     font-weight: 700;
     color: #555A6B;
 }
+.progress-section span {
+    font-size: 12px;
+    color: #555A6B;
+    display: inline-block;
+    margin-top: 5px;
+}
+.progress {
+    height: 2px;
+    background: #C2CDDA;
+}
+.progress-bar{
+    background: #61ACD6;
+}
 
+/* Uploaded */
+.uploaded{
+    padding-top: 55px;
+}
+.modal-body .uploaded .close{
+    padding: 30px 33px;
+}
+.uploaded .drop-files-here{
+    margin-top: 28px;
+    margin-bottom: 25px;
+}
+.uploaded .browse-files{
+    padding: 11px 22px;
+    margin-bottom: 40px;
+}
 
 /* Details */
 .modal-xl{
@@ -325,6 +360,9 @@ ul{
     background: none;
     border: none;
     padding: 31px 30px;
+}
+.pink-modal-bg{
+    background: url(../img/common\ food\ images/modal-bg.png);
 }
 .details{
     box-shadow: 0px 3px 6px #0000004D;

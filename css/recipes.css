@@ -213,13 +213,34 @@ ul{
     background: #F8F8F8;
     color: #000000;
 }
-.highest-rated-meals .filters ul{
+.accordion{
     margin-top: 44px;
 }
-.highest-rated-meals .filters ul li{
+.accordion-item{
+    border: none;
+    margin-bottom: 33px;
+}
+.accordion-header{
+    margin-bottom: 0 !important;
+}
+.accordion-button{
+    padding: 0;
     font-weight: 700;
     color: #000000;
-    margin-bottom: 33px;
+    border: none;
+}
+.accordion-button:focus{
+    box-shadow: none;
+    background: #fff;
+    color: #000;
+}
+.accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: #fff;
+    box-shadow: none;
+}
+.accordion-body{
+    padding: 0;
 }
 .highest-rated-meals .form-check{
     margin-top: 29px;

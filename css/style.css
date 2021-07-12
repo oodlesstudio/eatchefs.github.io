@@ -176,6 +176,9 @@ ul{
     display: inline-block;
     margin-top: 28px;
 }
+.food-chef:hover{
+    color: #fff;
+}
 .hungry-bottom{
     display: grid;
     grid-template-columns: 276px 276px 276px;
@@ -195,7 +198,7 @@ ul{
 .hungry-bottom-inner .hungry-item{
     color: #1C1C1C;
 }
-.hungry-bottom-inner .watch-video{
+.hungry-bottom-inner .watch-video a{
     color: #FFAA00;
 }
 .hungry-rating{
@@ -346,7 +349,7 @@ ul{
     font-weight: 600;
     color: #1C1C1C;
 }
-.ingredients-list .view-all-ingredients{
+.ingredients-list .view-all-ingredients a{
     color: #FFAA00;
     font-weight: 500;
 }
