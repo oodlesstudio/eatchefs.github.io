@@ -242,6 +242,13 @@ ul{
 .accordion-body{
     padding: 0;
 }
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../img/icons/open.png);
+    transform: none;
+}
+.accordion-button::after {
+    background-image: url(../img/icons/close.png);
+}
 .highest-rated-meals .form-check{
     margin-top: 29px;
     margin-bottom: 21px;
