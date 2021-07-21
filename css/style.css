@@ -31,6 +31,7 @@ ul{
     text-align: center;
     margin-bottom: 9px;
 }
+
 .eatchefs-border{
     margin-bottom: 60px;
 }
@@ -44,6 +45,7 @@ ul{
     width: 10px;
     margin-left: 4px;
 }
+
 .cuisine-border{
     padding-top: 67px;
 }
@@ -57,6 +59,26 @@ ul{
     width: 12px;
     border-radius: 23px;
     margin-left: 1px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .eatchefs-headings{
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+    .eatchefs-border{
+        margin-bottom: 30px;
+    }
+    .headings-border{
+        border-bottom: 4px solid #FFAA00;
+        width: 100px;
+        border-radius: 2px;
+    }
+    .dotted-border{
+        width: 5px;
+        border-bottom: 4px dotted #61ACD6;
+        margin-left: 3px;
+    }
 }
 
 /* Header */
@@ -97,6 +119,33 @@ ul{
 .header .login{
     color: #646464;
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .header .container-fluid{
+        padding: 0 15px;
+    }   
+    .navbar .container{
+        padding: 0;
+    }
+    .navbar .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .header-top{
+        order: 2;
+        flex-direction: column;
+    }
+    .header-bottom{
+        order: 1;
+        margin-top: 5px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding: 10px 5px;
+    }
+    .customer-support p{
+        padding-right: 0;
+        padding-bottom: 10px;
+    }
+}
 
 
 /* Dish Name */
@@ -106,7 +155,6 @@ ul{
 .has-search{
     max-width: 670px;
     position: absolute;
-    width: 100%;
     z-index: 1;
     left: 0;
     right: 0;
@@ -224,6 +272,70 @@ ul{
     padding-bottom: 12px;
     width: 52.8%;
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .dish-name{
+        padding-top: 115px;
+    }
+    .dish-name .container-fluid{
+        padding: 0 15px;
+    }
+    .dish-name-left{
+        background: none;
+        padding: 105px 15px 0 15px;
+        width: 100%;
+    }
+    .dish-name-right{
+        display: none;
+    }
+    .has-search{
+        margin: 25px 15px 0 15px;
+    }
+    .has-search .form-control {
+        padding: 12px 12px 10px 45px;
+        font-size: 16px;
+    }
+    .has-search ::placeholder{ 
+        font-size: 16px;
+    }
+    .has-search .form-control-feedback {
+        width: 18px;
+        height: 18px;
+        margin-left: 18px;
+        margin-top: 15px;
+    }
+    .vl {
+        border-left: 6px solid #1C1C1C;
+        height: 86px;
+        border-radius: 3px;
+    }
+    .hungry h3{
+        font-size: 18px;
+        padding-left: 15px;
+    }
+    .hungry h2{
+        font-size: 26px;
+        padding-left: 14px;
+    }
+    .food-chef{
+        font-size: 16px;
+        padding: 10px 20px;
+        margin: 20px 0;
+    }
+    .hungry-bottom{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+    }
+    .hungry-bottom img{
+        margin-right: 10px;
+    }
+    .hungry-rating{
+        font-size: 14px;
+    }
+    .hungry-rating .fa-star{
+        font-size: 14px;
+    }
+}
 
 /* Highest Rated Meals */
 .highest-rated-meals{
@@ -258,6 +370,7 @@ ul{
 .top-meals h6{
     font-size: 18px;
     color: #1C1C1C;
+    width: 75%;
 }
 .top-meals p{
     font-size: 14px;
@@ -301,6 +414,54 @@ ul{
     font-size: 18px;
     margin: 0 6px;
     margin-bottom: -2px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .highest-rated-meals{
+        padding-top: 50px;
+        padding-bottom: 0px;
+        background: none;
+    }
+    .our-meals{
+        grid-template-columns: repeat(1, auto);
+        grid-row-gap: 15px;
+    }
+    .top-meals-inner{
+        padding: 15px;
+    }
+    .top-meals .dish-title{
+        height: auto;
+        margin-bottom: 15px;
+    }
+    .top-meals h6{
+        font-size: 15px;
+    }
+    .view-recipe{
+        font-size: 15px;
+    }
+    .top-meals span{
+        font-size: 14px;
+    }
+    .top-meals .rating{
+        padding: 0px 5px 0px 0;
+        height: 21px;
+    }
+    .top-meals .fa-star{
+        font-size: 16px;
+        margin: 0 5px;
+        margin-bottom: -1px;
+    }
+    .top-meals .vote{
+        padding: 1px 6px 0 0;
+        margin-top: 8px;
+    }
+    .top-meals .fa-heart{
+        font-size: 16px;
+        margin-bottom: -1px;
+    }
+    .highest-rated-meals .cuisine-border{
+        display: none !important;
+    }
 }
 
 /* Special Meal */
@@ -405,6 +566,73 @@ ul{
     margin-left: 20px;
     margin-right: 9px;
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .special-meal{
+        background: url(../img/home/pink\ background.png) no-repeat center top;
+        padding-bottom: 25px;
+    }
+    .special-meal .container-fluid{
+        padding: 0 15px;
+        background: none;
+    }
+    .special-meal-right{
+        padding: 0 15px 0 15px !important;
+    }
+    .special-meal-right
+    .chicken-corner h3{
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+    .chicken-corner p{
+        font-size: 16px;
+    }
+    .ingredients-list{
+        margin: 20px 0;
+    }
+    .margin-r150{
+        margin-right: 48px;
+    }
+    .ingredients-list h6,
+    .ingredients h6,
+    .nutrition-value h6{
+        font-size: 16px;
+    }
+    .ingredients p{
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .nutrition-value h6{
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .nutrition-value p{
+        font-size: 14px;
+        width: 25%;
+        height: 50px;
+        padding: 10px 5px;
+        margin-right: 10px;
+    }
+    .nutrition-value p:last-child{
+        margin-right: 0;
+    }
+    .vote-recipe{
+        margin-top: 30px;
+        flex-direction: column;
+    }
+    .vote-recipe-left{
+        font-size: 16px;
+        padding-right: 10px;
+        margin-bottom: 10px;
+    }
+    .vote-recipe-left .fa-heart{
+        font-size: 25px;
+        margin: 6px 10px;
+    }
+    .vote-recipe-right .fa-heart{
+        margin: 0 5px -2px 0;
+    }
+}
 
 /* Favorite Cuisines */
 .favorite-cuisines .nav{
@@ -463,7 +691,50 @@ ul{
     color: #FFAA00;
     font-size: 18px;
 }
-
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .favorite-cuisines{
+        margin-top: 25px;
+    }
+    .favorite-cuisines .container-fluid{
+        padding: 0 15px;
+    }
+    .favorite-cuisines .nav{
+        padding-left: 15px;
+        margin-left: 15px;
+    }
+    .favorite-cuisines .nav-link{
+        font-size: 16px;
+        padding: 0px 5px;
+        margin: 10px 5px;
+    }
+    .favorite-cuisines .nav .active{
+        border-bottom: 3px solid #FFAA00;
+    }
+    .favorite-cuisines .arrow-left,
+    .favorite-cuisines .arrow-right{
+        display: none;
+    }
+    .cuisines-inner{
+        margin-top: 30px;
+        flex-direction: column;
+    }
+    .cuisine-two{
+        margin: 15px 0;
+    }
+    .cuisine-one img,
+    .cuisine-two img,
+    .cuisine-three img{
+        width: 105%;
+    }
+    .cuisine-content{
+        padding: 20px;
+        width: 100%;
+    }
+    .cuisine-content p{
+        margin-bottom: 15px;
+    }
+}
 
 /* Diet Plans */
 .diet-chef .container-fluid{
@@ -519,6 +790,51 @@ ul{
 }
 .diet-plans h6 a{
     color: #FFAA00;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .diet-chef .cuisine-border{
+        display: none !important;
+    }
+    .diet-chef .container-fluid{
+        background: none;
+        padding: 0 15px;
+    }
+    .diet-plans h2{
+        padding-top: 50px;
+    }
+    .diet-plans .nav-link{
+        font-size: 16px;
+        padding: 0 5px;
+        margin: 5px;
+    }
+    .diet-plans .nav .active{
+        border-bottom: 3px solid #FFAA00;
+    }
+    .detox-plan{
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 15px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    .detox-plan img{
+        width: 105%;
+        margin-left: -8px;
+    }
+    .diet-contents{
+        width: 100%;
+        padding: 15px; 
+    }
+    .diet-plans h5{
+        font-size: 16px;
+    }
+    .diet-plans p{
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+    .diet-plans p span{
+        margin: 0 5px;
+    }
 }
 
 
@@ -585,7 +901,53 @@ ul{
     margin-top: 80px;
     margin-left: 36px;
 }
-
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .chefs-pencil{
+        margin-bottom: 50px;
+    }
+    .chefs-pencil .col-md-4{
+        width: 100%;
+        padding-left: 12px;
+    }
+    .chefs-pencil .col-md-4 img{
+        width: 100%;
+    }
+    .chefs-pencil .col-md-8{
+        width: 100%;
+        padding-left: 15px;
+    }
+    .pencil-one{
+        border-bottom: 1px solid #DFDFDF;
+        padding-bottom: 30px;
+    }
+    .pencil-heading{
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    .chefs-pencil .pencil-link{
+        margin: 8px 0;
+    }
+    .chefs-pencil p{
+        font-size: 16px;
+    }
+    .pencil-name h5{
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+    .pencil-name h6 span{
+        margin-left: 10px;
+    }
+    .pencil-two{
+        margin-top: 30px;
+    }
+    .chefs-pencil .see-all{
+        padding: 10px 40px;
+        font-size: 16px;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+}
 
 /* Footer */
 .footer{
@@ -634,4 +996,52 @@ ul{
 }
 .social-icons img{
     margin-right: 20px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .footer{
+        padding-top: 30px;
+    }
+    .footer .container-fluid{
+        padding: 0 15px;
+    }
+    .footer-content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-start{
+        margin-left: 15px;
+    }
+    .footer-start p{
+        font-size: 14px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    .footer h5{
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .quick-links ul li,
+    .recipes-menu ul li{
+        margin-bottom: 15px;
+    }
+    .recipes-menu{
+        margin-top: 15px;
+    }
+    .margin-l35{
+        margin-left: 15px;
+    }
+    .copyright-policy{
+        float: none !important;
+        margin: 0 auto;
+    }
+    .privacy-policy{
+        margin-bottom: 5px;
+        margin-top: 15px;
+    }
+    .copyright{
+        margin-bottom: 30px;
+    }
+    .footer-end{
+        display: none;
+    }
 }
